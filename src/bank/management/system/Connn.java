@@ -12,7 +12,7 @@ public class Connn {
             connection = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/bankSystem",
                     "root",
-                    "@AAditya08"
+                    ""
             );
 
             statement = connection.createStatement();
